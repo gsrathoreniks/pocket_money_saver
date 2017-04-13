@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rathore.gajendra.pocket_money.Home">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="#37474f"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Wallet Balance"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/walletbalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 0\n"
+                android:textColor="#ffffff"
+                android:textSize="50dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to Savings"
+                android:textSize="15dp"
+                android:id="@+id/tosavings"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:textColor="#ffffff"
+                android:drawableLeft="@drawable/ic_wallet"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/addmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:drawableLeft="@drawable/ic_add_money"
+                android:gravity="center"
+                android:text="Add money"
+                android:textColor="#ffffff"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

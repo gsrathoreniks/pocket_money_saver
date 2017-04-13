@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "820065415126",
+    "firebase_url": "https://pocket-money-e8f54.firebaseio.com",
+    "project_id": "pocket-money-e8f54",
+    "storage_bucket": "pocket-money-e8f54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820065415126:android:ac67ac0e09340e1b",
+        "android_client_info": {
+          "package_name": "rathore.gajendra.pocket_money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820065415126-26rq1u6u9oif2nkm4o7pardjadhtp349.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rathore.gajendra.pocket_money",
+            "certificate_hash": "6ab8f1bb4f99831c9eded329b5d9ebb3cce6b398"
+          }
+        },
+        {
+          "client_id": "820065415126-9ncumivg6pc0toss07n757cn9qnfgq25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqvFhkjDsOKLJqT5xVeuTZilZFuz5Hgmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820065415126-9ncumivg6pc0toss07n757cn9qnfgq25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

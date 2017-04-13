@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="bottom|center_horizontal"
+              android:orientation="vertical"
+              android:background="#bb000000"
+              tools:context="rathore.gajendra.pocket_money.LoginActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        />
+</RelativeLayout>
